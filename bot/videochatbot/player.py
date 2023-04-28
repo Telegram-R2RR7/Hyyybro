@@ -32,7 +32,7 @@ import subprocess
 from signal import SIGINT
 from asyncio import sleep
 from config import Config, Database
-from bot.videochatbot.nopm import User
+# مص
 from youtube_dl import YoutubeDL
 from pyrogram import Client, filters
 from pyrogram.types import Message
