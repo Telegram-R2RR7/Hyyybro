@@ -5,5 +5,5 @@ ffmpeg-python
 python-dotenv
 youtube_search
 youtube_search_python
-py-tgcalls==0.8.6
 git+https://github.com/pyrogram/pyrogram@master
+
