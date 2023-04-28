@@ -230,7 +230,7 @@ allcmd = ["start", "help", f"start@{USERNAME}", f"help@{USERNAME}"] + admincmds
 async def not_chat(_, m: Message):
     buttons = [
             [
-                InlineKeyboardButton("💌 Contact Me", url="https://t.me/R2RR7),
+                InlineKeyboardButton("💌 Contact Me", url="https://t.me/R2RR7"),
                 InlineKeyboardButton("🏷️ Join Here", url="https://t.me/R2RR7"),
             ],
             [
