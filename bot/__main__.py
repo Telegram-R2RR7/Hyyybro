@@ -28,7 +28,7 @@ import asyncio
 # لا شي
 from pyrogram import Client, idle
 from config import Config
-from bot.videochatbot.nopm import User
+
 
 Bot = Client(
     ":memory:",
