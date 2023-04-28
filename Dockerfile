@@ -1,13 +1,10 @@
-FROM python:3.8-slim-buster
+FROM python:latest
 
-WORKDIR /app
-
-COPY requirements.txt requirements.txt
-
-RUN pip3 install -r requirements.txt
-
-COPY . .
-
-CMD [ "python3", "bot"]
-
-
+RUN apt update && apt upgrade -y
+RUN apt install python3-pip -y
+RUN apt install ffmpeg -y
+COPY . /VideoChatBot
+WORKDIR /VideoChatBot
+RUN pip3 install --upgrade pip
+RUN pip3 install -U -r requirements.txt
+CMD python3 -m bot
